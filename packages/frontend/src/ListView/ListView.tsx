@@ -16,6 +16,7 @@ interface State {
 // separate routines using Redux Saga, Redux Observable or anything of that kind.
 // Also some kind of client-side caching could be implemented to avoid excessive
 // calls to the API.
+// A more complex setup would utilizes some sort of CSS-in-JS instead of static styles.
 export class ListView extends Component<RouteComponentProps, State> {
     state: State = {
         fetching: false,

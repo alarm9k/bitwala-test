@@ -1,4 +1,4 @@
-import {HashToBlock} from 'bitwala-challenge-common/dist';
+import {HashToBlock} from 'bitwala-challenge-common';
 
 export interface CacheState {
     blocks: HashToBlock;
