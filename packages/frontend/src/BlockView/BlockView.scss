@@ -1,0 +1,24 @@
+.BlockView {
+    padding: 1em;
+
+    .block-details {
+        display: flex;
+    }
+
+    .detail {
+        display: flex;
+        padding: 0.2em;
+
+        .key {
+            width: 10em
+        }
+
+        &:nth-child(even) {
+            background: lightgray;
+        }
+    }
+
+    .back {
+        margin-top: 2em;
+    }
+}

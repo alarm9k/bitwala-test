@@ -1,0 +1,20 @@
+{
+  "name": "bitwala-challenge-backend",
+  "version": "1.0.0",
+  "description": "Bitwala coding challenge back-end package",
+  "author": "Dima Slivin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bitwala-challenge-common": "1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec 'tsc -b && node dist/index.js'"
+  }
+}

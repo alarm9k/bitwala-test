@@ -1,0 +1,9 @@
+{
+  "name": "bitwala-challenge-common",
+  "version": "1.0.0",
+  "description": "Bitwala coding challenge stuff that is shared between the back-end and the front-end",
+  "author": "Dima Slivin",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js"
+}

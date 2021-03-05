@@ -1,0 +1,41 @@
+.ListView {
+  display: flex;
+
+  .headers {
+    display: flex;
+    font-weight: bold;
+  }
+
+  .column {
+    padding: 0.5em;
+  }
+
+  .block-height {
+    width: 5em;
+  }
+
+  .block-hash {
+    width: 40em;
+  }
+
+  .block-time {
+    width: 10em;
+  }
+
+  .block-main-chain {
+    width: 8em;
+  }
+
+  .block {
+    display: flex;
+    cursor: pointer;
+
+    &:hover {
+      background: lightblue;
+    }
+
+    &:nth-child(even):not(:hover) {
+      background: lightgray;
+    }
+  }
+}
