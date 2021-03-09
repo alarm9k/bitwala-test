@@ -1,5 +1,5 @@
 # What is this repo?
-This is a coding challenge that I was asked to do at Bitwala.
+This is a coding challenge that I was asked to do at Bitwala. The task description is included in the `task-description.md`.
 
 # How to run it.
 - Clone the repo and make sure you have reasonably recent versions of `yarn` and `node`.
